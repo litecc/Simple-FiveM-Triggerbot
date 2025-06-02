@@ -1,5 +1,5 @@
 @echo off
-title AstraBot - Downloader
+title Triggerbot - Downloader by litecc
 color 0a
 cls
 
@@ -18,7 +18,7 @@ echo [~] Installing packages
 python -m pip install --upgrade pyautogui keyboard pillow pystray requests psutil pywin32 mysql-connector-python
 
 :: Starte das Skript
-echo [~] Starting AstraBot...
-python "%~dp0astra.py"
+echo [~] Starting Triggerbot...
+python "%~dp0triggerbot.py"
 echo [~] If it doesnt start automatically please start the .py yourself!
 pause
