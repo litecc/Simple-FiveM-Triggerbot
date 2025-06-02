@@ -15,7 +15,7 @@ if %errorlevel% neq 0 (
 
 :: Install packages
 echo [~] Installing packages
-pip install --upgrade pyautogui keyboard pillow pystray mysql-connector-python
+python -m pip install --upgrade pyautogui keyboard pillow pystray requests psutil pywin32 mysql-connector-python
 
 :: Starte das Skript
 echo [~] Starting AstraBot...
